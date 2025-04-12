@@ -1,0 +1,28 @@
+/* Рядок товарів */
+.product-row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch;
+gap: 20px
+}
+
+/* Стилі для кожного товару */
+.product {
+    background-color: #ffffff; /* Білий фон для товару */
+    border: 2px solid #ddd; /* Сіра рамка навколо товару */
+    border-radius: 10px; /* Закруглені кути рамки */
+    padding: 15px; /* Внутрішні відступи всередині блоку товару */
+    display: flex;
+    flex-direction: column-reverse;
+    width: 600px;
+}
+
+/* Стилі для зображень товарів */
+.product img {
+    width: 100%; /* Зображення розтягується на всю ширину блоку */
+    height: 150px; /* Фіксована висота зображення */
+    object-fit: cover; /* Зображення "вписується", зберігаючи пропорції */
+    border-radius: 5px; /* Закруглення кути зображення */
+    margin-bottom: 10px; /* Відступ між текстом та зображенням */
+}
